@@ -1,0 +1,89 @@
+/*  COLORS
+Green: #1DB954
+White: #fff;
+Black: #191414
+
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    color: #191414;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.form {
+    margin: 50px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a.button {
+    background: #1DB954;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 48px 16px;
+    text-align: center;
+
+}
+
+input,
+select {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 48px 16px;
+    margin: 0px 30px;
+
+}
+
+#results {
+    width: 60%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 20px;
+
+}
+.artist {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+
+.cover-art {
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    border: 1px #191414 solid
+}
+
+img {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a,
+    h3{
+    text-decoration: none;
+    color: #1DB954;
+}

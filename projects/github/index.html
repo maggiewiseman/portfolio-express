@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maggie's GitHub API Practice Project</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Get a list of GitHub Repos</h1>
+    <div id="userInfo">
+        <p>You must have a GitHub account. Enter your user name and password.</p>
+        <input id="username" type="text" placeholder="username">
+        <input id="password" type="password" placeholder="password">
+        <a id="submitCreds" class="git-btn">Submit</a>
+    </div>
+    <div id="repoSearch">
+        <input id='gh-user' type="text" placeholder="github user">
+        <a id="search" class="git-btn">Get Repos</a>
+    </div>
+    <div id="results">
+
+    </div>
+    <template id="repos">
+        {{#each repo}}
+        <figure><img src="{{owner.avatar_url}}" alt=""></figure>
+        <a href="#" class="repo-link">{{full_name}}</a>
+        <div id="commits-list"></div>
+        {{/each}}
+    </template>
+
+    <template id="commits">
+        <ul>
+        {{#this}}
+            <li>{{commit.message}}</li>
+        {{/this}}
+        </ul>
+    </template>
+
+    <script  src="https://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src="script.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+#headlines,
+#bottomLines {
+    white-space: nowrap;
+    position: absolute;
+}
+
+#headlines {
+    left: 100%;
+}
+
+#bottomLines {
+    top: 95%;
+}
+
+a {
+    padding: 10px 0px 10px 120px;
+    font-family: monospace;
+    font-size: 16px;
+    margin: 0;
+}
+
+a:hover {
+    color: blue;
+}

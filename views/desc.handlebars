@@ -1,0 +1,20 @@
+<section class="description">
+    {{#project}}
+    <h1>{{title}}</h1>
+    <figure class="screenshot">
+        <img src="{{img}}" alt="Picture of {{title}}">
+    </figure>
+    <p>{{desc}}</p>
+
+    <h3>Skills/Concepts Used</h3>
+    <ul>
+        {{#each skills}}
+            <li>{{.}}</li>
+        {{/each}}
+    </ul>
+
+    <div class="project-btn">
+        <a href="{{link}}" target="_blank">See it!</a>
+    </div>
+    {{/project}}
+</section>

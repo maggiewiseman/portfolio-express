@@ -1,0 +1,19 @@
+{
+  "name": "Maggie's Portfolio",
+  "version": "1.0.0",
+  "description": "An app that presents the some of projects completed in the first 6 weeks of a Full Stack Immersion program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0"
+  }
+}

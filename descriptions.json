@@ -1,0 +1,52 @@
+{
+    "projects": {
+        "carousel" : {
+            "title" : "Carousel",
+            "desc" : "Built an image carousel with vanilla JavaScript.  Images move every 5 seconds and always appear to come from the right side of the screen.  The dots at the bottom allow for the user to navigate to a particular image.  The image will still appear to come from the right and the images will continue to animate after 5 seconds starting with the chosen image. The hardest part was getting the right images to slide in and slide out at the right time. It was like herding cats.",
+            "skills" : ["CSS Transitions, Mobile transitions that still don't work!"],
+            "img" : "/carousel/screenshot.png",
+            "link" : "/carousel/",
+            "active" : false
+        },
+        "connect4" : {
+            "title" : "Connect 4 Game",
+            "desc" : "I built a Connect 4 game for 2 players (not against the computer).  Hover above the game board to choose a column and then click.  This will add a pawn to the selected column and switch players. Making the slide animation and checking for diagonal wins was the most difficult part of this assignment.",
+            "skills" : ["css tricks using transparent div with background shadow so that the pawn appears to drop through the gameboard.", "jQuery animation and jQuery UI effects for sliding and explode animation", "MVC structured code with gameboard model", "each white circle is associated with a cell object in the model", "used .prototype to add methods to each instance of a cell object in the model"],
+            "img" : "/connect4/screenshot.png",
+            "link" : "/connect4/",
+            "active" : false
+        },
+        "github" : {
+            "title" : "List Github Repos",
+            "desc" : "This app requires the user to have a Github login so that their credentials can be sent in the HTTP request each time the user searches for a set of repos. Otherewise, Github would limit the number of searches. Next they are prompted to type in a github username (their's or someone else's) and be given a list of repos owned by that user. When the user clicks on a repo, a list of the last 10 commits are displayed. ",
+            "skills" : ["ajax", "handling credentials"],
+            "img" : "/github/screenshot.png",
+            "link" : "/github/",
+            "active" : false
+        },
+        "resizablePanes" : {
+            "title" : "Resizable Panes",
+            "desc" : "The most difficult part of this project was getting the positioning just right. ",
+            "skills" : ["offsets"],
+            "img" : "/resizablePanes/screenshot.png",
+            "link" : "/resizablePanes/",
+            "active" : false
+        },
+        "spotify" : {
+            "title" : "Spotify Search",
+            "desc" : "spotify search",
+            "skills" : ["ajax calls"],
+            "img" : "/spotify/screenshot.png",
+            "link" : "/spotify/",
+            "active" : false
+        },
+        "ticker" : {
+            "title" : "Scrolling Ticker",
+            "desc" : "The goal here was to take a list of anchor tags in an html file and make them scroll across the top of the screen using only vanilla JavaScript. The most challenging part was making headlines appear in a continous loop without any jumpiness.",
+            "skills" : ["setTimeout"],
+            "img" : "/ticker/screenshot.png",
+            "link" : "/ticker/",
+            "active" : false
+        }
+    }
+}
